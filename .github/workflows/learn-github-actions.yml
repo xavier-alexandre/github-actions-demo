@@ -23,6 +23,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{ secrets.ACTIONS_TOKEN }}
+        repo-token: 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
         issue-message: "# Message with markdown.\nThis is the message that will be displayed on users' first issue."
         pr-message: "Message that will be displayed on users' first pr. Look, a `code block` for markdown."
